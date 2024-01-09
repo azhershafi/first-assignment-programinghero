@@ -138,3 +138,46 @@ h2.third-h{
     text-transform: uppercase;
     margin-top: 20px;
 }
+/* subscription-section */
+
+.subscription {
+    max-width: 1320px;
+    height: 600px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+    margin: 50px auto;
+}
+form {
+    padding-top: 20px;
+}
+
+input.email {
+    padding: 15px 30px;
+    width: 438px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 50px;
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.30);
+}
+
+input.sub-btn {
+    width: 210px;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 14px 30px;
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+
+}
