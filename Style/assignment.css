@@ -1,18 +1,18 @@
 /* banner */
-.new-year{
+.new-year {
     color: white;
     font-size: 32px;
     font-weight: 400;
     margin-bottom: 5px;
 }
 
-.new-year-celebration{
+.new-year-celebration {
     color: #fff;
     font-size: 72px;
     font-weight: 900;
 }
 
-.banner{
+.banner {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
     max-width: 1320px;
     background-size: cover;
@@ -24,4 +24,117 @@
     text-align: center;
     border-radius: 16px;
     margin: 50px auto;
+    
+}
+
+h6.new-year {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1.new-year-celebration {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* 2nd part */
+.second-section {
+    margin: 120px auto;
+    text-align: center;
+}
+
+.OFF {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.holidays-deal {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: -30px;
+}
+
+.categories {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* third-section */
+.third-section{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
+    max-width: 1320px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    padding: 126px;
+    margin: 50px auto;
+}
+.third{
+    max-width: 700px;
+}
+h2.third-h{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+.third-p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+}
+.btn-one{
+    background: transparent;
+    padding: 16px 32px;
+    border: 0px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* fourth section */
+.fourth-section{
+    max-width: 1320px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+    padding: 126px;
+    margin: 120px auto;
+}
+.fourth-info {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.text-highlight {
+    color: #F00
+}
+.primary-btn {
+    background: #F00;
+    padding: 16px 32px;
+    border: 0px;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
